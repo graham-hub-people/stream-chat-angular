@@ -33,6 +33,7 @@ describe('MessageReactionsSelectorComponent', () => {
       haha: '😂',
       wow: '😮',
       sad: '😞',
+      
     };
     reactionsServiceMock.reactions$ = new BehaviorSubject(
       reactionsServiceMock.reactions
